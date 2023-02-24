@@ -29,7 +29,7 @@ const getdatacategories = async (req, res) => {
       obj.cate = cate;
     }
     respones = await mealscategories.find();
-    // console.log(respones, 'cate');
+    // console.log(respons, 'cate');
     return res.send(respones);
   } catch (error) {
     console.log(error);

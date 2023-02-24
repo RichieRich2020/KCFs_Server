@@ -3,7 +3,6 @@ const jwt = require('jsonwebtoken');
 const { MenuData } = require('../models/postDataModel');
 const { mealscategories } = require('../models/MealsCategories');
 const { CartData } = require('../models/cartmodel');
-
 const authenticate = require('../middleware/Authentication');
 const postrouter = express.Router();
 

@@ -21,8 +21,6 @@ function authenticate(req, res, next) {
       }
       // data = {
       //   user_id: userr._id,
-      //   ...data,
-      // };
       req.userinfo = userr;
 
       next();
